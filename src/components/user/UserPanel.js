@@ -27,7 +27,7 @@ export default class UserPanel extends Component {
             <CardText>CardText</CardText>
           </CardBody>
         </Card>
-        <hr />
+        <hr color="black" />
         <Nav justified>
           <NavItem>
             <NavLink href="/">102 events</NavLink>
@@ -39,7 +39,7 @@ export default class UserPanel extends Component {
             </NavLink>
           </NavItem>
         </Nav>
-        <hr />
+        <hr color="black" />
       </div>
     );
   }

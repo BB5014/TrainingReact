@@ -11,32 +11,32 @@ import {
 class FriendsTab extends Component {
   render() {
     return (
-      <div className="ListCard w-50 mx-auto d-inline-block">
+      <div className="ListCard d-inline-block">
         <CardDeck className="p-2">
-          <Card className="h-15 d-inline-block">
+          <Card className="w-50 flex-fill d-flex flex-column p-3">
             <img
-              width="15%"
+              width="25%"
               src="https://images.freeimages.com/images/thumbs/877/evisterias-troschelli-1-1512159.jpg"
-              alt="cat"
+              alt="star"
             />
-            <CardBody className="w-35 text-right">
+            <CardBody className="flex-fill d-flex flex-column">
               <CardTitle>Firstname Lastname</CardTitle>
               <CardText>Number events</CardText>
               <CardText>Number friends</CardText>
             </CardBody>
           </Card>
-          <Card>
+          <Card className="flex-fill d-flex flex-column p-3">
             <img
               width="35%"
               src="https://images.freeimages.com/images/thumbs/877/evisterias-troschelli-1-1512159.jpg"
               alt="cat"
             />
-            <CardBody>
+            <CardBody className="text-right">
               <CardTitle>Firstname Lastname</CardTitle>
               <CardText>Number events Number friends</CardText>
             </CardBody>
           </Card>
-          <Card>
+          <Card className="flex-fill d-flex flex-column p-3">
             <img
               width="35%"
               src="https://images.freeimages.com/images/thumbs/877/evisterias-troschelli-1-1512159.jpg"

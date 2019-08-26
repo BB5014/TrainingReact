@@ -4,7 +4,7 @@ import { Nav, NavItem, NavLink } from "reactstrap";
 class TabBar extends Component {
   render() {
     return (
-      <div className="d-flex">
+      <div>
         <Nav>
           <NavItem>
             <NavLink href="/">Upcoming events</NavLink>
@@ -16,6 +16,7 @@ class TabBar extends Component {
             </NavLink>
           </NavItem>
         </Nav>
+        <hr color="black" />
       </div>
     );
   }

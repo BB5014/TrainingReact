@@ -11,9 +11,10 @@ import {
 class UpcomingEventsTab extends Component {
   render() {
     return (
-      <div className="ListCard w-50 mx-auto d-inline-block ">
+      <div className="ListCard  d-inline-block ">
+        <h4>Upcoming</h4>
         <CardDeck className="p-2">
-          <Card className="w-20 h-15">
+          <Card>
             <CardBody>
               <CardSubtitle>In 3 months</CardSubtitle>
               <CardTitle>SQUASH</CardTitle>

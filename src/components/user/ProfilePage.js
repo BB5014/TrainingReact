@@ -9,7 +9,7 @@ class ProfilePage extends Component {
     return (
       <>
         <div
-          className="container-fluid d-inline-block"
+          className="container-fluid d-inline-block "
           style={{
             width: "25%",
             marginLeft: "4vh",
@@ -21,22 +21,22 @@ class ProfilePage extends Component {
           <UserPanel />
         </div>
         <div
-          className="Tabbar container-fluid d-inline-block"
+          className="Tabbar container-fluid d-inline-block position-absolute mt-5"
           style={{ width: "70%" }}
         >
           <TabBar />
         </div>
         <div
-          className="Upcoming container-fluid d-inline-block
+          className="Upcoming container-fluid d-inline-block position-absolute 
         "
-          style={{ width: "70%", marginLeft: "50vh" }}
+          style={{ width: "70%", marginTop: "15vh" }}
         >
           <UpcomingEventsTab />
         </div>
         <div
-          className="Friends container-fluid d-inline-block
+          className="Friends container-fluid d-inline-block position-absolute
         "
-          style={{ width: "70%", marginLeft: "50vh" }}
+          style={{ width: "70%", marginTop: "100vh" }}
         >
           <FriendsTab />
         </div>
